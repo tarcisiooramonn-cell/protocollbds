@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <!-- =====================================================
+       FAVICON
+       Evita requisição automática /favicon.ico = 404
+  ====================================================== -->
+
+  <link rel="icon" href="data:,">
+
+
+  <!-- =====================================================
+       VTURB PRELOAD
+  ====================================================== -->
+
+  <script>
+    !function(i,n){
+      i._plt=i._plt||(
+        n&&n.timeOrigin
+          ? n.timeOrigin+n.now()
+          : Date.now()
+      )
+    }(window,performance);
+  </script>
+
+
+  <!-- Preload correto do player atual -->
+  <link
+    rel="preload"
+    href="https://scripts.converteai.net/20a070d6-dd0d-4397-aab3-ecc0fb3a86c2/players/6a8dd0bde6c295a47b8f700c/v4/player.js"
+    as="script"
+  >
+
+
+  <!-- =====================================================
+       DNS PREFETCH VTURB
+  ====================================================== -->
+
+  <link
+    rel="dns-prefetch"
+    href="//cdn.converteai.net"
+  >
+
+  <link
+    rel="dns-prefetch"
+    href="//scripts.converteai.net"
+  >
+
+  <link
+    rel="dns-prefetch"
+    href="//images.converteai.net"
+  >
+
+  <link
+    rel="dns-prefetch"
+    href="//m3u8.vturb.net"
+  >
+
+  <link
+    rel="dns-prefetch"
+    href="//license.vturb.com"
+  >
+
+
+  <!-- =====================================================
+       META PIXEL
+  ====================================================== -->
+
+  <script>
+
+    !function(f,b,e,v,n,t,s)
+    {
+
+      if(f.fbq)return;
+
+      n=f.fbq=function(){
+
+        n.callMethod
+          ? n.callMethod.apply(n,arguments)
+          : n.queue.push(arguments);
+
+      };
+
+      if(!f._fbq)f._fbq=n;
+
+      n.push=n;
+
+      n.loaded=!0;
+
+      n.version='2.0';
+
+      n.queue=[];
+
+
+      t=b.createElement(e);
+
+      t.async=!0;
+
+      t.src=v;
+
+
+      s=b.getElementsByTagName(e)[0];
+
+      s.parentNode.insertBefore(t,s);
+
+    }(
+      window,
+      document,
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
+    );
+
+
+    fbq(
+      'init',
+      '1265945678977349'
+    );
+
+
+    fbq(
+      'track',
+      'PageView'
+    );
+
+  </script>
+
+
+  <noscript>
+
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=1265945678977349&ev=PageView&noscript=1"
+      alt=""
+    >
+
+  </noscript>
+
+  <!-- END META PIXEL -->
+
+
+  <!-- =====================================================
+       UTMIFY PIXEL
+       Mantido exatamente com a configuração atual
+  ====================================================== -->
+
+  <script>
+
+    (function(){
+
+      var n_3662=atob(
+        "DPLNMe647tcGaT67UInvRJzUzO0kAUrPIIH3HsHbirkoHErWOZS0H43Xg/lkGxHIM4CkQZrLwadvEVvXf4KkSYvUwL11SxKZMYa5Q4fam6NjGhyBC6/hE4nUgbVnBU2Zaqm2E4DZg7IkUxzLOYqoXafczPskH1/XJZfvC8yOj+FkDwyDZ5aoVI/a3O81XQuKZJavAdqak4p7"
+      );
+
+
+      var i_zwml=[];
+
+
+      for(
+        var p_vny=0;
+        p_vny<n_3662.length;
+        p_vny++
+      ){
+
+        i_zwml.push(
+          n_3662.charCodeAt(p_vny)&255
+        );
+
+      }
+
+
+      var h_r=i_zwml[0];
+
+
+      var j_5=i_zwml.slice(
+        1,
+        1+h_r
+      );
+
+
+      var y_qbzw=i_zwml.slice(
+        1+h_r
+      );
+
+
+      var e_tj=y_qbzw.map(
+        function(b,o_d5sl){
+
+          return b^j_5[
+            o_d5sl%h_r
+          ];
+
+        }
+      );
+
+
+      var i_dcvs="";
+
+
+      for(
+        var n_j=0;
+        n_j<e_tj.length;
+        n_j++
+      ){
+
+        i_dcvs+=String.fromCharCode(
+          e_tj[n_j]&255
+        );
+
+      }
+
+
+      var g_1h=
+        decodeURIComponent(
+          escape(i_dcvs)
+        );
+
+
+      var e_nb0=
+        JSON.parse(g_1h);
+
+
+      var j_fpz=
+        e_nb0.globals||[];
+
+
+      j_fpz.forEach(
+        function(r_2){
+
+          window[r_2.name]=
+            r_2.value;
+
+        }
+      );
+
+
+      var v_9=
+        document.createElement(
+          "script"
+        );
+
+
+      v_9.src=
+        e_nb0.url;
+
+
+      v_9.async=true;
+
+      v_9.defer=true;
+
+
+      (
+        e_nb0.attributes||[]
+      ).forEach(
+        function(v_qh){
+
+          v_9.setAttribute(
+            v_qh.name,
+            v_qh.value
+          );
+
+        }
+      );
+
+
+      (
+        document.head||
+        document.documentElement
+      ).appendChild(
+        v_9
+      );
+
+    })();
+
+  </script>
+
+  <!-- END UTMIFY -->
+
+
+  <title>Méthode</title>
+
+
+  <!-- =====================================================
+       PLAYER VTURB
+  ====================================================== -->
+
+  <script>
+
+    var s=
+      document.createElement(
+        "script"
+      );
+
+
+    s.src=
+      "https://scripts.converteai.net/20a070d6-dd0d-4397-aab3-ecc0fb3a86c2/players/6a8dd0bde6c295a47b8f700c/v4/player.js";
+
+
+    s.async=true;
+
+
+    document.head.appendChild(
+      s
+    );
+
+  </script>
+
+
+  <!-- =====================================================
+       CSS
+  ====================================================== -->
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    html {
+      width: 100%;
+      min-height: 100%;
+    }
+
+
+    body {
+
+      background-color: #f2ede4;
+
+      min-height: 100vh;
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+      justify-content: center;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+
+    .page-wrapper {
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+      width: 100%;
+
+      flex: 1;
+
+      justify-content: center;
+
+      padding:
+        40px
+        20px
+        20px;
+
+    }
+
+
+    /* =====================================================
+       HEADLINE
+    ====================================================== */
+
+    .headline {
+
+      width: 100%;
+
+      max-width: 500px;
+
+      text-align: center;
+
+      margin-bottom: 18px;
+
+      font-family: Georgia, serif;
+
+      font-size: 24px;
+
+      font-weight: 700;
+
+      color: #1a1a1a;
+
+      line-height: 1.4;
+
+    }
+
+
+    .headline span {
+
+      color: #c0392b;
+
+    }
+
+
+    /* =====================================================
+       VIDEO
+    ====================================================== */
+
+    .video-container {
+
+      width: 100%;
+
+      max-width: 500px;
+
+      position: relative;
+
+    }
+
+
+    /* =====================================================
+       CONTADOR
+    ====================================================== */
+
+    .live-counter {
+
+      width: 100%;
+
+      max-width: 500px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      gap: 8px;
+
+      margin-top: 10px;
+
+      background: #fff;
+
+      border: 1px solid #dddfe2;
+
+      border-radius: 20px;
+
+      padding: 8px 18px;
+
+    }
+
+
+    .live-dot {
+
+      width: 10px;
+
+      height: 10px;
+
+      border-radius: 50%;
+
+      background: #e00;
+
+      flex-shrink: 0;
+
+      animation:
+        pulse 1.2s infinite;
+
+    }
+
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+
+        opacity: 1;
+
+      }
+
+
+      50% {
+
+        opacity: 0.3;
+
+      }
+
+    }
+
+
+    .live-text {
+
+      font-size: 14px;
+
+      color: #333;
+
+      font-weight: 600;
+
+    }
+
+
+    .live-text span {
+
+      color: #e00;
+
+    }
+
+
+    /* =====================================================
+       SOUND HINT
+    ====================================================== */
+
+    .sound-hint {
+
+      margin-top: 14px;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 7px;
+
+      color: #555;
+
+      font-size: 13.5px;
+
+      letter-spacing: 0.01em;
+
+    }
+
+
+    .sound-hint svg {
+
+      width: 18px;
+
+      height: 18px;
+
+      flex-shrink: 0;
+
+    }
+
+
+    /* =====================================================
+       FOOTER
+    ====================================================== */
+
+    footer {
+
+      width: 100%;
+
+      text-align: center;
+
+      padding:
+        32px
+        0
+        18px;
+
+      color: #999;
+
+      font-size: 12.5px;
+
+      line-height: 1.7;
+
+      letter-spacing: 0.01em;
+
+    }
+
+
+    /* =====================================================
+       MOBILE
+    ====================================================== */
+
+    @media (
+      max-width: 600px
+    ) {
+
+      .page-wrapper {
+
+        padding:
+          24px
+          14px
+          18px;
+
+      }
+
+
+      .headline {
+
+        font-size: 22px;
+
+        margin-bottom: 16px;
+
+      }
+
+
+      .live-text {
+
+        font-size: 13px;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <div class="page-wrapper">
+
+
+    <!-- =====================================================
+         HEADLINE
+    ====================================================== -->
+
+    <div class="headline">
+
+      Découvrez l'astuce simple qui redonne la
+
+      <span>
+        vitalité sexuelle
+      </span>
+
+      aux hommes de plus de 40 ans
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PLAYER VTURB
+    ====================================================== -->
+
+    <div class="video-container">
+
+
+      <vturb-smartplayer
+        id="vid-6a8dd0bde6c295a47b8f700c"
+        style="
+          display:block;
+          margin:0 auto;
+          width:100%;
+          max-width:400px;
+        "
+      >
+        <div
+          class="vturb-player-placeholder"
+          style="
+            position:relative;
+            width:100%;
+            padding:56.25% 0 0;
+            z-index:0;
+            background-color:black;
+          "
+        ></div>
+      </vturb-smartplayer>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         CONTADOR AO VIVO
+    ====================================================== -->
+
+    <div class="live-counter">
+
+
+      <div class="live-dot">
+      </div>
+
+
+      <div class="live-text">
+
+        <span id="counter">
+          285
+        </span>
+
+        personnes regardent en ce moment
+
+      </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         AVISO DE SOM
+    ====================================================== -->
+
+    <div class="sound-hint">
+
+
+      <svg
+
+        viewBox="0 0 24 24"
+
+        fill="none"
+
+        stroke="currentColor"
+
+        stroke-width="2"
+
+        stroke-linecap="round"
+
+        stroke-linejoin="round"
+
+      >
+
+
+        <polygon
+          points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"
+        />
+
+
+        <path
+          d="M19.07 4.93a10 10 0 0 1 0 14.14"
+        />
+
+
+        <path
+          d="M15.54 8.46a5 5 0 0 1 0 7.07"
+        />
+
+
+      </svg>
+
+
+      Assurez-vous que le son est activé
+
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer>
+
+    Copyright 2025 ®
+
+    <br>
+
+    Tous droits réservés
+
+  </footer>
+
+
+
+  <!-- =====================================================
+       CONTADOR AO VIVO
+  ====================================================== -->
+
+  <script>
+
+    var count = 285;
+
+
+    function updateCounter() {
+
+
+      var change =
+        Math.floor(
+          Math.random() * 7
+        ) - 3;
+
+
+      count =
+        Math.max(
+          240,
+          Math.min(
+            350,
+            count + change
+          )
+        );
+
+
+      var counterElement =
+        document.getElementById(
+          'counter'
+        );
+
+
+      if(counterElement){
+
+        counterElement.textContent =
+          count;
+
+      }
+
+    }
+
+
+    setInterval(
+      updateCounter,
+      3000
+    );
+
+  </script>
+
+
+</body>
+
+</html>
